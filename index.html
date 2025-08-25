@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-file.css" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"/>
+  </head>
+  
+  <body class="body">
+    <div class="blackBox container-fluid">
+      <div class="popup">
+        <div class="closePopup">
+          <i class="fa-solid fa-remove"></i>
+        </div>
+        <p class="fs-4 fw-semibold">Page Not Ready</p>
+      </div>
+    </div>
+    
+    <div class="addNav">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <nav class="menu">
+      <ul class="container-fluid fs-6 fw-semibold">
+        <div class="closeNav">
+          <i class="fa-solid fa-remove"></i>
+        </div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contacts</a></li>
+        <li><a class="addPopup" href="#">Download CV</a></li>
+      </ul>
+    </nav>
+    
+    <section id="home" class="home container-fluid">
+      <div class="container-fluid cin">
+        <div class="box1 container-fluid text-uppercase">
+          <h1 class="text-center fw-semibold typing"><i class="fa-solid fa-hand"></i>, I'm Justine</h1>
+          <p class="text-center fs-6">Frontend Developer</p>
+        </div>
+        
+        <div class="box2 container-fluid pt-5 text-capitalize">
+          <p class="text-capitalize">welcome to my portfolio</p>
+          <ul class="container">
+            <li><a href="#about">Get Started</a></li>
+            <li><a class="addPopup" href="#">Get CV</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <section id="about" class="about section container-fluid">
+      <h2 class="fs-2 text-center">About Me</h2>
+      <div class="box1 mt-3">
+        <div class="imagebox1">
+          <img src="myphoto.png" alt="" />
+        </div>
+        <p class="fs-4">Frontend Developer</p>
+      </div>
+      
+      <ul class="box2 container-fluid">
+        <p>I am Justin, a self-taught Frontend Developer specializing in creating clean, responsive, and user-friendly web interfaces. With expertise in HTML, CSS, Bootstrap, and JavaScript, I focus on delivering solutions that balance technical performance with visual appeal.</p>
+        <p>I build and refine my skills through practical, hands-on projects — ranging from personal portfolio sites to dynamic, data-driven applications such as cryptocurrency dashboards. My approach combines precision, adaptability, and a commitment to continuous learning.</p>
+        <p>I believe effective development is not only about writing code but also about understanding user needs, aligning with business goals, and delivering results that make a measurable impact.</p>
+      </ul>
+    </section>
+    
+    <section id="skills" class="skills section container-fluid">
+      <h2 class="fw-semibold">Skills</h2>
+      <p class="pTag">The tools and specialties I rely on to build responsive, user-friendly, and efficient web solutions</p>
+      <div class="box1 container-fluid">
+        <div>
+          <p class="fs-5 fw-semibold">Languages & Frameworks</p>
+          <ul class="container-fluid">
+            <li>HTML</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Bootstrap5</li>
+          </ul>
+        </div>
+        <div>
+          <p class="fs-5 fw-semibold">Tools</p>
+          <ul class="container-fluid">
+            <li>GitHub</li>
+            <li>Acode (Mobile IDE)</li>
+            <li>Mobile DevTools</li>
+            <li>Visual Studio Code</li>
+          </ul>
+        </div>
+        <div>
+          <p class="fs-5 fw-semibold">Specialties</p>
+          <ul class="container-fluid">
+            <li>UI/UX</li>
+            <li>Responsive Design</li>
+            <li>Performance Optimization</li>
+            <li>Mobile-First Development</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <section id="projects" class="projects section container-fluid">
+      <h2 class="fw-semibold">Projects</h2> 
+      <p class="pTag"> A showcase of projects that highlight my learning journey, problem-solving skills, and growth as a web developer</p>
+      
+        <!-- Slider main container -->
+        <div class="swiper container-fluid">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="imageBox">
+                <img src="img1.png" alt="TradeSnap.png" />
+              </div>
+              <div class="innerBox">
+                <p class="container-fluid text-center">TradeSnap is a fast, real-time crypto trading tool for prices, signals, and market insights</p>
+                <ul class="container-fluid fw-semibold">
+                  <li><a class="addPopup" href="#">Live Demo</a></li>
+                  <li><a class="addPopup" href="#">GitHub Repo</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="imageBox">
+                <img src="img2.png" alt="Fluxx.png" />
+              </div>
+              <div class="innerBox">
+                <p class="container-fluid text-center">Fluxx is a sleek music streaming concept with  a custom equalizer, with a fluid design</p>
+                <ul class="container-fluid fw-semibold">
+                  <li><a class="addPopup" href="#">Live Demo</a></li>
+                  <li><a class="addPopup" href="#">GitHub Repo</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="imageBox">
+                <img src="img3.png" alt="Convertly.png" />
+              </div>
+              <div class="innerBox">
+                <p class="container-fluid text-center">Convertly is a sleek, real-time currency converter for fiat and crypto with an intuitive design</p>
+                <ul class="container-fluid fw-semibold">
+                  <li><a class="addPopup" href="#">Live Demo</a></li>
+                  <li><a class="addPopup" href="#">GitHub Repo</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+
+          <!-- If we need navigation buttons -->
+          <div class="btnBox">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        
+          <!-- If we need scrollbar -->
+        </div>
+    </section>
+    
+    <section id="experience" class="experience container-fluid">
+      <h2 class="fw-semibold">Experience</h2> 
+      <p class="text-center">Self-Taught Frontend Developer <br /><span>(2022 – Present)</span></p>
+      <ul class="container-fluid">
+        <li>Experimented with interactive charts, responsive layouts, and real-time data fetching</li>
+        <li>Built multiple responsive websites from scratch using HTML, CSS, and JavaScript</li>
+        <li>Specialized in mobile-first design and website performance optimization</li>
+        <li>Applied practical knowledge from online learning into real-world projects</li>
+        <li>Designed and deployed personal projects with live demos</li>
+      </ul>
+    </section>
+    
+    <section id="contact" class="contact section container-fluid">
+      <h2 class="fw-semibold">Contact</h2>
+      <p class="pTag">For inquiries, collaborations, or project discussions<br /> Please reach out using the form below</p>
+      <div class="box1 p-4">
+        <form action="" method="get" accept-charset="utf-8">
+          <div>
+            <label for="name">Name</label> 
+            <input type="text" name="name" id="name" placeholder="Joe Dave" required/>
+          </div>
+          
+          <div>
+            <label for="email">Email</label> 
+            <input type="email" name="email" id="email" placeholder="abc123@gmail.com" required/>
+          </div>
+          
+          <div>
+            <label for="message">Message</label> 
+            <textarea type="text" name="message" rows="5" id="Message" placeholder="Your Message" required></textarea>
+          </div>
+          
+          <button class="addPopup fw-semibold" type="submit">Send</button>
+        </form>
+        
+        <p class="text-center text-dark mt-3 fw-semibold fs-2">or</p> 
+        
+        <ul>
+          <li><a class="addPopup" href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a class="addPopup" href="#"><i class="fab fa-whatsapp"></i></a></li>
+          <li><a class="addPopup" href="#"><i class="fa-solid fa-envelope"></i></a></li>
+          <li><a class="addPopup" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a class="addPopup" href="#"><i class="fab fa-github-alt"></i></a></li>
+        </ul>
+      </div>
+    </section>
+    
+    <footer class="py-2">
+      <p>© 2025 JusCodes | All Rights Reserved</p>
+    </footer>
+    
+    
+    
+    <script src="Js/index-file.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+        autoplay: {
+          delay: 2500, 
+          disableOnInteraction: false,
+        },
+      
+        // If we need pagination
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        },
+      
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      
+        // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+      });
+    </script> 
+  </body>
+</html>
