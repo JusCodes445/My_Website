@@ -75,13 +75,6 @@ Let’s connect!
 
 ---
 
-## 📜 License
-This portfolio is **All Rights Reserved**.  
-The code and design are shared for demonstration purposes only.  
-Unauthorized use, reproduction, or distribution is prohibited.
-
----
-
 ⭐ If you like what you see, don’t forget to star this repo and connect with me!
 
 
